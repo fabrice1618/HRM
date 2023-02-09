@@ -357,7 +357,7 @@ void HRM::ReportList() {
       {
         if(sal[h]>sal[h+1]);
         {
-          temp[h]=e[h];
+          //temp[h]=e[h];
           e[h]=e[q];
           e[q]=temp[h];
         }
